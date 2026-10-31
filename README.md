@@ -4,7 +4,7 @@
 
 # Pi-Squirrel: NanoPi R3S-LTS inline network tap + remote access drop-box
 
-Made by an aspiring red teamer! I wanted to buy the Hak 5 Packet Squirrel for forever but I could not afford one :( So I made a DIY version on the much cheaper NanoPi R3S-LTS!
+Made by an aspiring red teamer! I wanted to buy the [Hak 5](https://shop.hak5.org/) [Packet Squirrel](https://shop.hak5.org/products/packet-squirrel-mark-ii) for forever but I could not afford one :( So I made a DIY version on the much cheaper NanoPi R3S-LTS!
 
 For a messily 40 buckos you could have a device with the same function as the Packet Squirrel at 20% of the price! 
 
