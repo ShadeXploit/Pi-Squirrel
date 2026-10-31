@@ -10,7 +10,7 @@ For a messily 40 buckos you could have a device with the same function as the Pa
 
 A deployment repository for turning a [NanoPi R3S-LTS](https://www.friendlyelec.com/index.php?route=product%2Fproduct&product_id=311) running [Armbian](https://armbian.com/) (Debian target with the Rockchip RK3566 kernel) into an inline Ethernet tap and portable remote access drop box.
 
-This project is designed for authorized network diagnostics, edge-device troubleshooting, red-team lab work, and defensive network monitoring in environments where you have explicit written approval to monitor traffic and/or place a device in-line.
+This project is designed for authorized network security testing, edge-device troubleshooting, red team assessments, and defensive network monitoring in environments where you have explicit written approval to monitor traffic and/or place a device in-line.
 
 Important: This repository intentionally creates a transparent L2 bridge and captures traffic. Use only on networks and hosts you are authorized to test, monitor, or support.
 
@@ -56,7 +56,7 @@ The board exposes multiple Ethernet ports. In practice, the port layout is:
 
 The automation scripts intentionally do not use hardcoded names such as `eth0`/`eth1`. Instead, they auto-discover the real physical interfaces using `ip -br link show` and `/sys/class/net` and filter out loopback, bridge, veth, Tailscale, and other virtual interfaces.
 
-Recommended port-assignment logic:
+Recommended port assignment logic:
 
 1. Connect the upstream path to the side of the network that should remain online.
 2. Connect the downstream path to the host or device you are replacing in-line.
