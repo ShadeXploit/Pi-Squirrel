@@ -1,12 +1,14 @@
-"I NEED ME SOME PACKETS." 
+"I NEED ME SOME PACKETS. GET GANKED SON!!!" 
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4d150d53-2c24-422d-bce4-d0c7751b1ac0" />
 
 # Pi-Squirrel: NanoPi R3S-LTS inline network tap + remote access drop-box
 
-Made by an aspiring red teamer! I wanted to buy the Hak 5 Packet Squeral for forever but I could not affored one :( So I made a DIY version!
+Made by an aspiring red teamer! I wanted to buy the Hak 5 Packet Squirrel for forever but I could not afford one :( So I made a DIY version on the much cheaper NanoPi R3S-LTS!
 
-A deployment repository for turning a NanoPi R3S-LTS running Armbian (Debian target with the Rockchip RK3566 kernel) into an inline Ethernet tap and portable remote-access drop box.
+For a messily 40 buckos you could have a device with the same function as the Packet Squirrel at 20% of the price! 
+
+A deployment repository for turning a NanoPi R3S-LTS running Armbian (Debian target with the Rockchip RK3566 kernel) into an inline Ethernet tap and portable remote access drop box.
 
 This project is designed for authorized network diagnostics, edge-device troubleshooting, red-team lab work, and defensive network monitoring in environments where you have explicit written approval to monitor traffic and/or place a device in-line.
 
