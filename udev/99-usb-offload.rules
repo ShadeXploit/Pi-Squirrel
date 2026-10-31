@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="block", ENV{ID_BUS}=="usb", ENV{DEVTYPE}=="disk", RUN+="/bin/bash -c '/opt/pi-squirrel/scripts/offload_loot.sh >> /var/log/pi-squirrel-usb.log 2>&1'"
+ACTION=="add", SUBSYSTEM=="block", ENV{ID_BUS}=="usb", ENV{DEVTYPE}=="partition", RUN+="/bin/bash -c '/opt/pi-squirrel/scripts/offload_loot.sh >> /var/log/pi-squirrel-usb.log 2>&1'"

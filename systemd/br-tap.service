@@ -1,0 +1,15 @@
+[Unit]
+Description=Pi-Squirrel transparent bridge (br-tap) setup
+After=network-pre.target
+Before=network.target packet-tap.service
+Wants=network-pre.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/opt/pi-squirrel/network/setup_bridge.sh
+ExecStartPost=-/opt/pi-squirrel/network/mac_clone.sh
+ExecStop=/sbin/ip link set dev br-tap down
+
+[Install]
+WantedBy=multi-user.target

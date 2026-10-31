@@ -1,0 +1,14 @@
+[Unit]
+Description=Pi-Squirrel packet capture service
+After=network-online.target br-tap.service
+Wants=network-online.target br-tap.service
+
+[Service]
+Type=simple
+User=root
+ExecStart=/opt/pi-squirrel/scripts/start_capture.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
