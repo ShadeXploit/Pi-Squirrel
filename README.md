@@ -4,11 +4,11 @@
 
 # Pi-Squirrel: NanoPi R3S-LTS inline network tap + remote access drop-box
 
-Made by an aspiring red teamer! I wanted to buy the [Hak 5 Packet Squirrel](https://shop.hak5.org/products/packet-squirrel-mark-ii) for forever but I could not afford one :( So I made a DIY version on the much cheaper NanoPi R3S-LTS!
+Made by an aspiring red teamer! I wanted to buy the [Hak 5 Packet Squirrel](https://shop.hak5.org/products/packet-squirrel-mark-ii) for forever but I could not afford one :( So I made a DIY version on the much cheaper [NanoPi R3S-LTS!](https://www.friendlyelec.com/index.php?route=product%2Fproduct&product_id=311)
 
-For a messily 40 buckos you could have a device with the same function as the Packet Squirrel at 20% of the price! 
+For a messily 40 buckos you could have a device with the same function as the Packet Squirrel at 20% of the price! I also would recommend you pick up a 10$ [Type C PoE Splitter](https://www.amazon.com/Splitter-Standard-1000Mbps-Ethernet-TYPEC0503G/dp/B09GM8FB3X) so you don't have to go messing around trying to find a outlet to power the device on your engagements! The idea here is just to plant the device and GTFO!!!
 
-A deployment repository for turning a NanoPi R3S-LTS running Armbian (Debian target with the Rockchip RK3566 kernel) into an inline Ethernet tap and portable remote access drop box.
+A deployment repository for turning a [NanoPi R3S-LTS](https://www.friendlyelec.com/index.php?route=product%2Fproduct&product_id=311) running [Armbian](https://armbian.com/) (Debian target with the Rockchip RK3566 kernel) into an inline Ethernet tap and portable remote access drop box.
 
 This project is designed for authorized network diagnostics, edge-device troubleshooting, red-team lab work, and defensive network monitoring in environments where you have explicit written approval to monitor traffic and/or place a device in-line.
 
