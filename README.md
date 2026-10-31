@@ -1,8 +1,10 @@
-"I NEED ME SOME PACKETS. LEMME GANK THE CTO's PC REAL QUICK"
+"I NEED ME SOME PACKETS." 
 
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4d150d53-2c24-422d-bce4-d0c7751b1ac0" />
 
 # Pi-Squirrel: NanoPi R3S-LTS inline network tap + remote access drop-box
+
+Made by an aspiring red teamer! I wanted to buy the Hak 5 Packet Squeral for forever but I could not affored one :( So I made a DIY version!
 
 A deployment repository for turning a NanoPi R3S-LTS running Armbian (Debian target with the Rockchip RK3566 kernel) into an inline Ethernet tap and portable remote-access drop box.
 
